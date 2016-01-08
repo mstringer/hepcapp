@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Application Title</title>
+<title>Hepatitis C</title>
 <!-- met-0.2.0 -->
 <link href="../../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="../../../lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
@@ -19,14 +19,16 @@
 <body onunload="exit();">
 <header id="canadahd">
  <div class="container">
-  <div class="row">
+ <div class="row">
    <div class="col-xs-2 col-md-3 text-left lft">
     <button onclick="history.go(-1);return false;" class="btn btn-head btn-sm" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></button>
    </div>
    <div id="canadahdtl" class="col-xs-8 col-md-6">
-    <h1><a href="../../../index-en.html">Hepatitis C</a></h1>
+	<h1><a data-toggle="modal" href="#settingsMenu" class="btn btn-head btn-sm"><span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span></a><a href="index-en.html">Hepatitis C</a></h1>
    </div>
-   <div class="col-xs-2 col-md-3 text-right rgt"><a data-toggle="modal" href="#settingsMenu" class="btn btn-head btn-sm"><span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span></a></div>
+   <div class="col-xs-2 col-md-3 text-right rgt">
+	<button onclick="window.location='basics/index.html';return false;" class="btn btn-head btn-sm" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
+   </div>
   </div>
   <!-- Modal -->
   <div class="modal fade" id="settingsMenu" tabindex="-1" role="dialog" aria-hidden="true">
@@ -52,21 +54,20 @@
 <div class="container">
 
   <div class="padding">
-	<h1 class="text-center">CATIE's Guide to Hepatitis C</h1>
-	<div class="btn-group-vertical btn-group-green big-margin">
-		<a type="button" class="btn" href="basics">Hep C Basics</a>
-		<a type="button" class="btn" href="testing">Testing</a>
-		<a type="button" class="btn" href="prevention">Prevention &amp; Harm Reduction</a>
-		<a type="button" class="btn" href="treatment">Treatment</a>
-		<a type="button" class="btn" href="livingwith">Living with Hep C</a>
+	<h1 class="text-center">Hep C In Depth</h1>
+	<div class="btn-group-vertical btn-group-blue big-margin">
+		<a type="button" class="btn" href="basics/index.html">Hep C Basics</a>
+		<a type="button" class="btn" href="testing/index.html">Testing</a>
+		<a type="button" class="btn" href="prevention/index.html">Prevention &amp; Harm Reduction</a>
+		<a type="button" class="btn" href="treatment/index.html">Treatment</a>
+		<a type="button" class="btn" href="livingwith/index.html">Living with Hep C</a>
 	</div>
-	<p class="text-center">Version 1.0.4</p>
 </div>
 <!-- /container --> 
 
 <br class="clearfix">
 <footer id="wm-mw">
- <div class="container"> <img src="../../../lib/met/images/canada-col.svg" onerror="this.src='../../../lib/met/images/canada-col.png'" alt="Symbol of the Government of Canada"> </div>
+ <div class="container">  </div>
 </footer>
 </body>
 </html>
