@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Application Title | Titre de l'application</title>
+<!-- met-0.2.0 -->
+<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="lib/met/css/met.css" rel="stylesheet">
+<link href="assets/css/catie.css" rel="stylesheet">
+<script src="lib/jquery.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="cordova.js"></script>
+<script src="lib/met/js/met.js"></script>
+<link href="assets/images/shortcut-icon.png" rel="apple-touch-icon" />
+</head>
+<body onunload="exit();">
+<header role="banner">
+ <div class="container">
+  <div class="text-center"> <img height="60" src="assets/images/CATIELogoCol.jpg" onerror="this.src='assets/images/CATIELogoCol.jpg'" alt="CATIE"> </div>
+ </div>
+</header>
+<div class="container" id="splash">
+ <div class="row">
+  <div class="col-sm-6 col-md-6 text-center maintitles">
+   <h1>Hepatitis C</h1>
+  </div>
+  <div class="col-sm-6 col-md-6 text-center maintitles" lang="fr">
+   <h1>L'Hépatite C</h1>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col-xs-6 col-md-6"> <a class="btn btn-lg btn-primary btn-block" href="index-en.html"><strong>English</strong></a> <a class="btn btn-default btn-block" href="examples/terms-en.html">Terms and Conditions</a> </div>
+  <div class="col-xs-6 col-md-6" lang="fr"> <a class="btn btn-lg btn-primary btn-block" href="index-fr.html"><strong>Français</strong></a> <a class="btn btn-default btn-block" href="examples/terms-fr.html">Avis</a> </div>
+ </div>
+ <p class="text-center ver"><small>Version 0.1</small></p>
+</div>
+<br class="clearfix">
+<footer id="wm-mw">
+ <div class="container"> <img width="300" src="assets/images/catielogo.png" onerror="this.src='assets/images/catielogo.png'" alt="CATIE - Canada's source for HIV and hepatitis C information | La source canadienne de renseignements sur le VIH et l'hépatite C" class="fip"> </div>
+</footer>
+</body>
+</html>
