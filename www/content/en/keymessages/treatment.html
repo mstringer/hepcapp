@@ -10,6 +10,11 @@
 <link href="../../../lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="../../../lib/met/css/met.css" rel="stylesheet">
 <link href="../../../assets/css/catie.css" rel="stylesheet">
+<script>
+if (navigator.userAgent.match(/iP[ha][od].*OS/)) {
+	document.write('<link rel="stylesheet" href="../../../assets/css/ios.css">');
+}
+</script>
 <script src="../../../lib/jquery.min.js"></script>
 <script src="../../../lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="../../../cordova.js"></script>
@@ -24,7 +29,7 @@
     <button onclick="history.go(-1);return false;" class="btn btn-head btn-sm" role="button"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></button>
    </div>
    <div id="canadahdtl" class="col-xs-8 col-md-6">
-	<h1><a data-toggle="modal" href="#settingsMenu" class="btn btn-head btn-sm"><span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span></a><a href="index-en.html">Hepatitis C</a></h1>
+	<h1><a data-toggle="modal" href="#settingsMenu" class="btn btn-head btn-sm"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a><a href="index.html">Hepatitis C - Key Messages</a></h1>
    </div>
    <div class="col-xs-2 col-md-3 text-right rgt">
 	<button onclick="window.location='living-well.html';return false;" class="btn btn-head btn-sm" role="button"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></button>
@@ -38,7 +43,12 @@
       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
       <h4 class="modal-title">Settings</h4>
      </div>
-     <div class="modal-body"> <a class="btn btn-default btn-lg btn-block" type="button" lang="fr" href="index-fr.html">Français</a> <a class="btn btn-default btn-lg btn-block" type="button" href="index-en.html">Home</a> <a class="btn btn-default btn-lg btn-block" type="button" href="about-en.html">About</a> <a class="btn btn-default btn-lg btn-block" type="button" href="terms-en.html">Terms and Conditions</a> </div>
+     <div class="modal-body">
+		<a class="btn btn-default btn-lg btn-block" type="button" lang="fr" href="../../../index-fr.html">Français</a>
+		<a class="btn btn-default btn-lg btn-block" type="button" href="../../../index-en.html">Home</a>
+		<a class="btn btn-default btn-lg btn-block" type="button" href="../../../about-en.html">About</a>
+		<a class="btn btn-default btn-lg btn-block" type="button" href="../../../terms-en.html">Terms and Conditions</a>
+	 </div>
      <div class="modal-footer">
       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
      </div>
@@ -58,7 +68,7 @@
 	
 	<div class="text-center">
 	  <div class="maxwidth-body">
-		<p><img class="maxwidth-body-image" alt="Treatment key message" rel="lightbox" src="images/treatment_EN_letter.gif" /></p>
+		<p><img class="maxwidth-body-image" alt="Treatment key message" rel="lightbox" src="../../../assets/images/keymessages/treatment_EN_letter.gif" /></p>
 		<ul>
 		<li>
 				New medications are able to cure Hep C in more people.</li>

@@ -38,6 +38,10 @@ HC-SC-Mobile
 <preference name="LoadUrlTimeoutValue" value="20000" />
 <preference name="disable-cursor" value="true" />
 
+<preference name="StatusBarOverlaysWebView" value="false" /> 
+<preference name="StatusBarBackgroundColor" value="#000000" />
+<preference name="StatusBarStyle" value="lightcontent" />
+
 <platform name="ios">
   <icon src="res/icon/ios/Icon-60.png" width="60" height="60" />
   <icon src="res/icon/ios/Icon-60@2x.png" width="120" height="120" />

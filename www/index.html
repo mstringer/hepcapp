@@ -11,7 +11,11 @@
 <link href="lib/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
 <link href="lib/met/css/met.css" rel="stylesheet">
 <link href="assets/css/catie.css" rel="stylesheet">
-<script src="lib/jquery.min.js"></script>
+<script>
+if (navigator.userAgent.match(/iP[ha][od].*OS/)) {
+	document.write('<link rel="stylesheet" href="assets/css/ios.css">');
+}
+</script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="cordova.js"></script>
 <script src="lib/met/js/met.js"></script>
@@ -33,14 +37,14 @@
   </div>
  </div>
  <div class="row">
-  <div class="col-xs-6 col-md-6"> <a class="btn btn-lg btn-primary btn-block" href="index-en.html"><strong>English</strong></a> <a class="btn btn-default btn-block" href="examples/terms-en.html">Terms and Conditions</a> </div>
-  <div class="col-xs-6 col-md-6" lang="fr"> <a class="btn btn-lg btn-primary btn-block" href="index-fr.html"><strong>Français</strong></a> <a class="btn btn-default btn-block" href="examples/terms-fr.html">Avis</a> </div>
+  <div class="col-xs-6 col-md-6"> <a class="btn btn-lg btn-primary btn-block" href="index-en.html"><strong>English</strong></a> <a class="btn btn-default btn-block" href="terms-en.html">Terms and Conditions</a> </div>
+  <div class="col-xs-6 col-md-6" lang="fr"> <a class="btn btn-lg btn-primary btn-block" href="index-fr.html"><strong>Français</strong></a> <a class="btn btn-default btn-block" href="terms-fr.html">Avis</a> </div>
  </div>
  <p class="text-center ver"><small>Version 0.1</small></p>
 </div>
 <br class="clearfix">
 <footer id="wm-mw">
- <div class="container"> <img width="300" src="assets/images/catielogo.png" onerror="this.src='assets/images/catielogo.png'" alt="CATIE - Canada's source for HIV and hepatitis C information | La source canadienne de renseignements sur le VIH et l'hépatite C" class="fip"> </div>
+ <div class="container"></div>
 </footer>
 </body>
 </html>

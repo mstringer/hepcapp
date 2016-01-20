@@ -987,7 +987,7 @@ th {
 .glyphicon-option-horizontal:before {
   content: "\e234";
 }
-.glyphicon-option-vertical:before {
+.glyphicon-menu-hamburger:before {
   content: "\e235";
 }
 .glyphicon-menu-hamburger:before {

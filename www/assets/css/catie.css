@@ -22,7 +22,7 @@
 /* GENERAL */
 html{position:relative;min-height:100%;}
 body{margin:0 0 40px;background-image:url(../img/noisebg.png);background-color:#f7f7f7;font-size:15px;font-family: 'Open Sans', sans-serif;color:#000;}
-footer{position:absolute;left:0;bottom:0;height:42px;width:100%;text-align:center;border-top:2px solid #72B672;display:block;padding-top:8px;}
+footer{position:absolute;left:0;bottom:0;height:30px;width:100%;text-align:center;border-top:2px solid #72B672;display:block;padding-top:8px;}
 nav{width:100%;}
 
 .padding{padding:1px 13px 1px 13px}
@@ -69,6 +69,15 @@ h1{font-size:24px;line-height:30px;margin:45px 23px 30px 23px;}
 .btn-group-justified>a+a{border-left:2px solid #227632}
 .btn-group-justified .glyphicon{padding-top:2px}
 .btn-group-green > a {text-shadow: 1px 1px 1px #3B643B;}
+#canadahdtl h1 {
+	padding: inherit;
+	margin-left: -40px;
+}
+#canadahdtl h1 .btn {
+	vertical-align: inherit;
+	padding-right: 20px;
+}
+
 
 /* BREADCRUMBS */
 .breadcrumb{background-color:#FFF;border-bottom:1px solid #ddd;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;margin-bottom:0}
